@@ -1,0 +1,6 @@
+(1)Alvaro|(2)Rodriguez|(3)Rodrigo|(4)2002-04-10|(5)654326539|(6)a.rr02@outlook.com|(7)Me|(8)Programmer
+(1)Jorge|(2)Rodriguez|(3)Rodrigo|(4)1996-08-11|(5)654326421
+(1)Diego|(2)Rod|(3)rod|(6)@
+(1)adas|(6)@
+(1)l|(6)a.rr02@outlook.com
+(1)dsad|(5)654326539|(6)@lll
