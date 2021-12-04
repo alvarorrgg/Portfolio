@@ -17,7 +17,7 @@ This is not always true but we will make it this way to simplify things
 This two will be our primary keys but it will be a little bit different than usual.
 Since you can add a contact with missing info the only real requirement to add info is that either the mail or the phone number or both are added.
 The id is auto added when adding a contact.
-I think the only big deal in this proyect is when deleting or modifiying, get into the file search for the correct position to delete then change the whole
+I think the only big deal in this project is when deleting or modifiying, get into the file search for the correct position to delete then change the whole
 so te program doesnt mess.
 Thats not really hard but it cang et really funny.
 If you think about in the access routine, The user might search for a contact based on the name.
