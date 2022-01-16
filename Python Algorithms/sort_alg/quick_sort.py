@@ -15,7 +15,7 @@ def main():
         Main code calls necesary functions
     """
     if len(sys.argv) != 3 or sys.argv[1] != "-size":
-        print("The number of arguments is incorrect.\n Correct execution is:\npython3 Insert_sort.py -size (100)")
+        print("The number of arguments is incorrect.\n Correct execution is:\npython3 quick_sort.py -size (100)")
         exit()
     try:
         arr_len = int(sys.argv[2])

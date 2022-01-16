@@ -2,24 +2,22 @@ import perm as pm
 import sys
 import check
 
-	
+
 def select_sort(arr, P, U):
-	for i in range(len(arr)-1):
-		minim = i
-		for j in range(i+1,len(arr)):
-			if arr[minim] > arr[j]:
-				minim = j
-		arr[i], arr[minim] = arr[minim], arr[i]
-			
-			
-			
-			
+    for i in range(len(arr)-1):
+        minim = i
+        for j in range(i+1, len(arr)):
+            if arr[minim] > arr[j]:
+                minim = j
+        arr[i], arr[minim] = arr[minim], arr[i]
+
+
 def main():
     """
         Main code calls necesary functions
     """
     if len(sys.argv) != 3 or sys.argv[1] != "-size":
-        print("The number of arguments is incorrect.\n Correct execution is:\npython3 Insert_sort.py -size (100)")
+        print("The number of arguments is incorrect.\n Correct execution is:\npython3 select_sort.py -size (100)")
         exit()
     try:
         arr_len = int(sys.argv[2])
